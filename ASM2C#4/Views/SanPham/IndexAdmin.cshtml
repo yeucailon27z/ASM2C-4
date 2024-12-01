@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ASM2C_4.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-primary">@ViewData["Title"]</h1>
+        <a asp-controller="SanPham" asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm mới
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col">Hình ảnh</th>
+                <th scope="col">Giá</th>
+                <th scope="col">Mô tả</th>
+                <th scope="col">Trạng thái</th>
+                <th scope="col">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-muted">Không có sản phẩm nào</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImgUrl))
+                            {
+                                <img src="@item.ImgUrl" alt="@item.Name" class="img-thumbnail" style="max-height: 100px;" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">Chưa có ảnh</span>
+                            }
+                        </td>
+                        <td>@item.Price.ToString("C0", System.Globalization.CultureInfo.CurrentCulture)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                        <td>
+                            @if (item.Status == 1) // '1' đại diện cho 'true'
+                            {
+                                <span class="badge bg-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Ngừng bán</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                                <i class="bi bi-pencil-square"></i> Sửa
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm text-white">
+                                <i class="bi bi-eye"></i> Chi tiết
+                            </a>
+                            @if (item.Status == 1)
+                            {
+                                <a asp-action="ChangeStatus" asp-route-id="@item.Id" asp-route-status="0" class="btn btn-danger btn-sm"
+                                   onclick="return confirm('Bạn có chắc chắn muốn ngừng bán sản phẩm này không?');">
+                                    <i class="bi bi-x-circle"></i> Ngừng bán
+                                </a>
+                            }
+                            else
+                            {
+                                <a asp-action="ChangeStatus" asp-route-id="@item.Id" asp-route-status="1" class="btn btn-success btn-sm"
+                                   onclick="return confirm('Bạn có chắc chắn muốn mở bán sản phẩm này không?');">
+                                    <i class="bi bi-check-circle"></i> Hoạt động
+                                </a>
+                            }
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

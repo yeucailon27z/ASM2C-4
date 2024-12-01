@@ -1,0 +1,69 @@
+﻿@model ASM2C_4.Models.SanPham
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create Product</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Tên sản phẩm -->
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Tên sản phẩm</label>
+                <input asp-for="Name" class="form-control" placeholder="Nhập tên sản phẩm" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Ảnh sản phẩm -->
+            <div class="form-group">
+                <label for="HinhAnh" class="control-label">Hình ảnh</label>
+                <input type="file" name="HinhAnh" class="form-control" accept="image/*" />
+                <span asp-validation-for="ImgUrl" class="text-danger"></span>
+            </div>
+
+            <!-- Giá sản phẩm -->
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Giá sản phẩm</label>
+                <input asp-for="Price" class="form-control" placeholder="Nhập giá sản phẩm" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <!-- Mô tả sản phẩm -->
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Mô tả</label>
+                <textarea asp-for="Description" class="form-control" placeholder="Nhập mô tả sản phẩm"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- Trạng thái sản phẩm -->
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Trạng thái</label>
+                <select asp-for="Status" class="form-control">
+                    <option value="1">Kinh doanh</option>
+                    <option value="0">Ngừng kinh doanh</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <!-- Nút gửi form -->
+            <div class="form-group">
+                <input type="submit" onclick="return confirm('Bạn có chắc chắn muốn tạo không?')" value="Thêm sản phẩm" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexAdmin">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

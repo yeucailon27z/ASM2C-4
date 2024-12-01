@@ -1,0 +1,69 @@
+﻿@model List<ASM2C_4.Models.GioHangChiTiet>
+
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Giỏ Hàng của bạn</h1>
+
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-warning text-center">
+            <strong>Giỏ hàng của bạn trống!</strong> Hãy thêm sản phẩm vào giỏ hàng.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Hình ảnh</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="@item.SanPham.ImgUrl" alt="@item.SanPham.Name" style="width: 100px; height: 100px; object-fit: cover;" /></td>
+                            <td>@item.SanPham.Name</td>
+                            <td>@item.SanPham.Price.ToString("C")</td>
+                            <td>
+                                <!-- Thay đổi số lượng -->
+                                <form action="@Url.Action("UpdateQuantity", "GioHang", new { id = item.Id })" method="post" class="form-inline">
+                                    <input type="number" name="newQuantity" value="@item.SoLuong" min="1" class="form-control" style="width: 60px;" />
+                                    <button type="submit" class="btn btn-warning btn-sm ml-2">Cập nhật</button>
+                                </form>
+                            </td>
+                            <td>@(item.SanPham.Price * item.SoLuong).ToString("C")</td>
+                            <td>
+                                <!-- Nút xóa sản phẩm khỏi giỏ hàng -->
+                                <a href="@Url.Action("RemoveFromCart", "GioHang", new { id = item.Id })" class="btn btn-danger btn-sm">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-between">
+                <a href="@Url.Action("IndexKhachHang", "SanPham")" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Tiếp tục mua sắm
+                </a>
+
+                <!-- Tổng giá trị giỏ hàng -->
+                <div>
+                    <h4>Tổng tiền: @Model.Sum(x => x.SanPham.Price * x.SoLuong).ToString("C")</h4>
+                    <a href="@Url.Action("Checkout", "GioHang")" class="btn btn-success">
+                        Thanh toán
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

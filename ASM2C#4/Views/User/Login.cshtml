@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Đăng Nhập";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Đăng Nhập</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+            }
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+            <form asp-action="Login" method="post">
+                <div class="form-group">
+                    <label for="userName">Tên đăng nhập</label>
+                    <input type="text" class="form-control" id="userName" name="userName" placeholder="Nhập tên đăng nhập" />
+                </div>
+                <div class="form-group">
+                    <label for="passWord">Mật khẩu</label>
+                    <input type="password" class="form-control" id="passWord" name="passWord" placeholder="Nhập mật khẩu" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-3">Đăng Nhập</button>
+            </form>
+            <div class="text-center mt-3">
+                <p>Bạn chưa có tài khoản? <a asp-action="DangKy" class="text-primary">Đăng ký ngay</a></p>
+            </div>
+        </div>
+    </div>
+</div>

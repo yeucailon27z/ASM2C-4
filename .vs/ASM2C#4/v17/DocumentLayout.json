@@ -1,0 +1,505 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\sanpham\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\sanpham\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\sanpham\\indexkhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\sanpham\\indexkhachhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\sanpham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\sanpham\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\migrations\\20241129035849_taodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\migrations\\20241129035849_taodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\models\\asm2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\models\\asm2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\giohangconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\giohangconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\giohangchitietconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\giohangchitietconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\hoadonchitietconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\hoadonchitietconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\hoadonconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\hoadonconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\sanphamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\sanphamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\configurations\\userconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\configurations\\userconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|c:\\users\\admin\\source\\repos\\asm2c#4\\asm2c#4\\asm2c#4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C2D00CE-C99C-4381-A65E-A5C8B3B42FEB}|ASM2C#4\\ASM2C#4.csproj|solutionrelative:asm2c#4\\asm2c#4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 351,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexKhachHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\IndexKhachHang.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\SanPham\\IndexKhachHang.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\IndexKhachHang.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\SanPham\\IndexKhachHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:15:27.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ASM2C#4\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwGsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:18:23.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "ASM2C#4\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAuwKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T05:00:34.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "ASM2C#4\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:23:32.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASM2C#4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:43:57.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\SanPham\\IndexAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\IndexAdmin.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\SanPham\\IndexAdmin.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T07:58:42.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\SanPham\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Edit.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\SanPham\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T15:24:42.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HoaDonChiTiet.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\HoaDonChiTiet.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\HoaDonChiTiet.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\HoaDonChiTiet.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\HoaDonChiTiet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:34:59.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:38:21.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\User\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\User\\DangKy.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\User\\DangKy.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\User\\DangKy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T04:47:56.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Details.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\SanPham\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Details.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\SanPham\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T15:14:15.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Create.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\SanPham\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\SanPham\\Create.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\SanPham\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:40:46.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T04:50:59.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T16:30:51.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\GioHang.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\GioHang.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\GioHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:11:04.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\HoaDon.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\HoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:11:34.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\SanPham.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\SanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:09:13.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Program.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Program.cs",
+              "RelativeToolTip": "ASM2C#4\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:57:39.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\appsettings.json",
+              "RelativeDocumentMoniker": "ASM2C#4\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\appsettings.json",
+              "RelativeToolTip": "ASM2C#4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T03:56:33.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "ASM2C#4\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "ASM2C#4\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T04:50:28.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\User.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:27:30.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241129035849_taodb.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Migrations\\20241129035849_taodb.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Migrations\\20241129035849_taodb.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Migrations\\20241129035849_taodb.cs",
+              "RelativeToolTip": "ASM2C#4\\Migrations\\20241129035849_taodb.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:58:50.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GioHangConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\GioHangConfiguration.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\GioHangConfiguration.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\GioHangConfiguration.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\GioHangConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:54:23.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GioHangChiTietConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\GioHangChiTietConfiguration.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\GioHangChiTietConfiguration.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\GioHangChiTietConfiguration.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\GioHangChiTietConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:53:22.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HoaDonChiTietConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\HoaDonChiTietConfiguration.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\HoaDonChiTietConfiguration.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\HoaDonChiTietConfiguration.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\HoaDonChiTietConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:52:47.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HoaDonConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\HoaDonConfigurations.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\HoaDonConfigurations.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\HoaDonConfigurations.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\HoaDonConfigurations.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:50:57.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ASM2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\ASM2DbContext.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Models\\ASM2DbContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Models\\ASM2DbContext.cs",
+              "RelativeToolTip": "ASM2C#4\\Models\\ASM2DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:37:03.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SanPhamConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\SanPhamConfiguration.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\SanPhamConfiguration.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\SanPhamConfiguration.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\SanPhamConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:50:28.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\UserConfigurations.cs",
+              "RelativeDocumentMoniker": "ASM2C#4\\Configurations\\UserConfigurations.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\Configurations\\UserConfigurations.cs",
+              "RelativeToolTip": "ASM2C#4\\Configurations\\UserConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:46:50.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ASM2C#4.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\ASM2C#4.csproj",
+              "RelativeDocumentMoniker": "ASM2C#4\\ASM2C#4.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASM2C#4\\ASM2C#4\\ASM2C#4.csproj",
+              "RelativeToolTip": "ASM2C#4\\ASM2C#4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T03:04:26.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

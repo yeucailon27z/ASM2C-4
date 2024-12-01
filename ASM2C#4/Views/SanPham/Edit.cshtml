@@ -1,0 +1,77 @@
+﻿@model ASM2C_4.Models.SanPham
+
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Chỉnh sửa sản phẩm</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                <!-- Truyền ID sản phẩm (ẩn) -->
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Tên sản phẩm -->
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label">Tên sản phẩm</label>
+                    <input asp-for="Name" class="form-control" placeholder="Nhập tên sản phẩm" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Giá sản phẩm -->
+                <div class="form-group mb-3">
+                    <label asp-for="Price" class="form-label">Giá sản phẩm</label>
+                    <input asp-for="Price" class="form-control" placeholder="Nhập giá sản phẩm" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <!-- Mô tả sản phẩm -->
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="form-label">Mô tả sản phẩm</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Nhập mô tả sản phẩm"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <!-- Hình ảnh sản phẩm -->
+                <div class="form-group mb-3">
+                    <label class="form-label">Hình ảnh hiện tại</label>
+                    <div class="mb-2">
+                        <img src="@Model.ImgUrl" alt="@Model.Name" class="img-thumbnail" style="max-height: 200px; object-fit: cover;" />
+                    </div>
+                    <label for="uploadHinh" class="form-label">Tải lên hình ảnh mới</label>
+                    <input type="file" id="uploadHinh" name="upLoadHinh" class="form-control" accept="image/*" />
+                </div>
+
+                <!-- Trạng thái sản phẩm -->
+                <div class="form-group mb-3">
+                    <label asp-for="Status" class="form-label">Trạng thái</label>
+                    <select asp-for="Status" class="form-control">
+                        <option value="1" selected="@Model.Status == 1">Kinh doanh</option>
+                        <option value="0" selected="@Model.Status == 0">Ngừng kinh doanh</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <!-- Nút hành động -->
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary" onclick="return confirm('Bạn có chắc muốn sửa không?')">Lưu thay đổi</button>
+                    <a asp-action="IndexAdmin" class="btn btn-secondary">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+
+<style>
+    .img-thumbnail {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+    }
+</style>
